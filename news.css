@@ -1,0 +1,38 @@
+#news-page {
+  position: relative;
+  height:1200px;
+  z-index: 2;
+}
+
+#news-page-contents {
+  position: absolute;
+  top:-70px;
+}
+
+.news-box {
+  position: relative;
+  width:700px;
+}
+
+.news-date {
+  color:rgba(0,0,0,0.5)
+}
+
+.news-content{
+  display:block;
+  color:black;
+  height:90px;
+}
+  
+.news-picture {
+  position: absolute;
+  top:0;
+  right:0;
+  width:140px;
+}
+
+.news-line {
+  max-width: 225px;
+  width:225px;
+  transform:rotate(-1deg);
+}

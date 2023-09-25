@@ -1,0 +1,111 @@
+#inquire-page {
+  position: relative;
+  height:800px;
+  z-index: 2;
+}
+
+#inquire-page-contents {
+  position: absolute;
+  top:-70px;
+  max-width:700px;
+}
+
+#inquire-comment {
+  position: relative;
+  width:90%;
+  height:100px;
+}
+
+.inquire-content{
+  display:block;
+  color:black;
+  height:90px;
+  margin-left:30px;
+}
+.inquire-content p{
+  margin-left:10px;
+}
+
+.inquire-content span{
+  color:red;
+}
+
+.inquire-content input{
+  border:1px silver solid;
+  width:80%;
+  font-size:20px;
+  padding-top:5px;
+}
+
+.inquire-content input:active{
+  border:1px gray solid;
+}
+
+.inquire-content textarea{
+  border:1px silver solid;
+  width:80%;
+  font-size:20px;
+  font-family: "メイリオ";
+  padding-top:5px;
+}
+
+.inquire-content button{
+  border:1px silver solid;
+  padding:10px 40px;
+  font-size: 24px;
+  margin-left:50px;
+  margin-bottom:20px;
+}
+
+#conf-btn {
+  background: #ff8181;
+  border-bottom: solid 3px #bd6565;
+  margin-left:50px;
+}
+
+#back-btn {
+  display:none;
+  background: #ff8181;
+  border-bottom: solid 3px #bd6565;
+  margin-left:50px;
+}
+
+#send-btn {
+  display:none;
+  background: #ff8181;
+  border-bottom: solid 3px #bd6565;
+  margin-left:100px;
+}
+
+#send {
+  display:none;
+}
+
+#name-data,#email-data,#content-data {
+  padding-left : 20px;
+}
+
+#top-link {
+  display:none;
+  top:200px;
+  left:250px;
+}
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  transition: .4s;
+  border-bottom: solid 3px #bd6565;
+}
+
+button:active{
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}

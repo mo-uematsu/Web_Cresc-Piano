@@ -1,0 +1,199 @@
+
+  /* ここからスライドショー */
+  #slideshow {
+    height:350px;
+  }
+
+  #slideshow img {
+    position: absolute;
+    left:0;
+    opacity: 0.0;
+    border-radius: 100px;
+    border: 9px solid rgba(0,182,110,0.4); /* 枠線を付加 */
+  }
+  
+  #slideshow img.active {
+    z-index: 2;
+    opacity: 1.0;
+  }
+  
+  #slideshow img.last-active {
+    z-index: 1;
+  }
+  
+  #leaf-note{
+    position: absolute;
+    width:300px;
+    top:-120px;
+  }
+
+  .bird{
+    position: absolute;
+    width:100px;
+    top:-40px;
+    z-index: 2;
+  }
+
+  .blue-line{
+    position: absolute;
+    width:290px;
+    transform:rotate(-2deg);
+  }
+
+  #slideshow-number{
+    position: absolute;
+    z-index: 1;
+  }
+
+  #slideshow-number img {
+    width:20px;
+  }
+
+  #slideshow-number-current{
+    position: absolute;
+  }
+
+  #slideshow-number-current img {
+    width:20px;
+    opacity: 0.0;
+  }
+
+  #slideshow-number-current img.active {
+    position: relative;
+    opacity: 1.0;
+    z-index: 2;
+  }
+  /* ここまでスライドショー */
+
+  /* ここからコンテンツ */
+  .contents-title {
+    font-size:25px;
+    color:black;
+  }
+
+  .contents-title img{
+    width:80px;
+    height:80px;
+    vertical-align: middle;
+  }
+  /* ここまでコンテンツ */
+
+  /* ここからお知らせ */
+
+  #news {
+    float:left;
+    position: relative;
+    height:500px;
+    z-index: 2;
+  }
+
+  #news-contents {
+    position: absolute;
+  }
+
+  .news-box {
+    position: relative;
+    width:400px;
+  }
+
+  .news-date {
+    color:rgba(0,0,0,0.5)
+  }
+
+  .news-content a {
+    color:black;
+  }
+  .news-picture {
+    position: absolute;
+    top:0;
+    right:0;
+    width:90px;
+  }
+
+  .news-line {
+    width:125px;
+    transform:rotate(-1deg);
+  }
+
+  #news-link-btn {
+    position: absolute;
+    top:450px;
+    left:150px;
+    padding:4px 20px;
+    font-size:small;
+    color:rgba(0,0,0,0.8);
+    border:1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+  /* ここまでお知らせ */
+
+  /* ここから教室の基本情報 */
+  #base-info {
+    height:150px;
+  }
+  
+  #base-info-contents {
+    position: absolute;
+    width:500px;
+  }
+
+  .info-box {
+    position: absolute;
+    top:50px;
+    left:70px;
+  }
+  /* ここまで教室の基本情報 */
+
+  /* ここからレッスンについて */
+  #resson {
+    height:150px;
+  }
+
+  #resson-contents {
+    position: absolute;
+    width:500px;
+  }
+  /* ここまでレッスンについて */
+
+  /* ここから講師紹介 */
+  #introduce {
+    height:200px;
+  }
+
+  #introduce-contents {
+    position: absolute;
+    width:500px;
+  }
+  /* ここまで講師紹介 */
+
+  /* ここからお問い合わせ */
+  .orange-line {
+    position: absolute;
+    width:290px;
+  }
+
+  #inquire {
+    height:300px;
+  }
+
+  #inquire-contents {
+    position: absolute;
+    width:80%;
+    margin-top:30px;
+  }
+
+  #inquire-info-box {
+    padding-left: 50px;
+  }
+  
+  #inquire-link-btn {
+    position: absolute;
+    top:180px;
+    left:140px;
+    padding:4px 20px;
+    font-size:small;
+    color:rgba(0,0,0,0.8);
+    border:1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+  /*　ここまでお問い合わせ */

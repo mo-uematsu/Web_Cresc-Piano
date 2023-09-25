@@ -1,0 +1,63 @@
+#base-info-page {
+  position: relative;
+  height:900px;
+  z-index: 2;
+}
+  
+#base-info-page-contents {
+  position: absolute;
+  top:-70px;
+  max-width:800px;
+}
+  
+#base-info-comment {
+  position: relative;
+  width:90%;
+  height:60px;
+}
+
+#greeting-text {
+  width:90%;
+}
+
+#greeting-text img {
+  float:left; 
+  width:120px;
+  height:120px;
+  margin-left: 30px;
+  margin-right:20px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#greeting-btn {
+  top:350px;
+  left:60%;
+}
+
+.base-info-content{
+  display:block;
+  color:black;
+  margin-left:10px;
+}
+
+.base-info-content p{
+  margin-left:10px;
+  height:120px;
+}
+  
+.abstract {
+  border-bottom:2px silver dotted;
+  font-size: 18px;
+  padding:20px 10px;
+  width:90%;
+}
+
+.abstract a{
+  color:blue;
+}
+
+#abstract-btn {
+  top:920px;
+  left:35%;
+}

@@ -1,0 +1,23 @@
+#resson-page {
+    position: relative;
+    height:0px;
+    z-index: 2;
+}
+      
+#resson-page-contents {
+    position: absolute;
+    max-width: 817px;
+    width:90%;
+    top:-70px;
+}
+    
+.resson-content{
+    display:block;
+    color:black;
+    margin-left:10px;
+}
+    
+.resson-content p{
+    margin-left:10px;
+    height:120px;
+}

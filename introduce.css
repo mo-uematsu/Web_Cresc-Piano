@@ -1,0 +1,27 @@
+input {
+    position: relative;
+}
+
+#introduce-page {
+    position: relative;
+    height:0px;
+    z-index: 2;
+}
+      
+#introduce-page-contents {
+    position: absolute;
+    max-width: 817px;
+    width:90%;
+    top:-70px;
+}
+    
+.introduce-content{
+    display:block;
+    color:black;
+    margin-left:10px;
+}
+    
+.introduce-content p{
+    margin-left:10px;
+    height:120px;
+}
